@@ -1,0 +1,39 @@
+/* ================ FAQS ===================*/
+
+.policies__container {
+    background: var(--color-bg);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+    padding-top: 0;
+}
+
+.policy__img {
+    display:flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.policy__img img{
+    width: 25vw;
+}
+
+.policy__terms h1, h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.policy__terms h4 {
+    padding: 1rem;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    /* ----------------------- POLICIES --------------*/
+
+ 
+}
+
