@@ -450,6 +450,29 @@ h5 {
     color: #00bf7f;
     text-decoration: underline;
 }
+/* ---------------------- MKT DIGITAL ------------ */
+.mktDigital__title {
+    padding-top: 3rem;
+  }
+  
+  .mktDigital__body {
+    padding-top: 2rem;
+  
+  }
+  
+  .mktDigital__body .highlight {
+      background-image: linear-gradient(
+        to right,
+        var(--color-bg3),
+        var(--color-bg3),
+        var(--color-danger)
+      );
+      border-radius: 6px;
+      padding: 3px 6px;
+    }
+
+
+
 /* ---------------------- FREEDON --------------- */
 .freedon__container {
     text-align: center;
