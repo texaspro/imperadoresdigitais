@@ -1,0 +1,67 @@
+/* ================ FAQS ===================*/
+
+.faqs {
+    background: var(--color-bg);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+    padding-top: 2rem;
+}
+
+.faqs__img {
+    display:         flex;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.faqs__img img {
+    width: 20vw;
+}
+
+.faqs__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.faq {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    height: fit-content;
+    background: var(--color-primary);
+    cursor: pointer;
+}
+
+.faq h4 {
+    font-size: 1rem;
+    line-height: 2.2;
+}
+
+.faq__icon {
+    align-self: flex-start;
+    font-size: 1.2rem;
+}
+
+.faq p {
+    margin-top: 0.8rem;
+    display: none;
+}
+
+.faq.open p {
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    /* ----------------------- FAQs --------------*/
+
+    .faqs__container {
+        grid-template-columns: 1fr;
+    }
+
+    .faq {
+        padding: 1.5rem;
+    }
+}
+
